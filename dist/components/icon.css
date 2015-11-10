@@ -2228,6 +2228,12 @@ i.icon.simplybuilt:before {
 i.icon.skyatlas:before {
   content: "\f216";
 }
+i.icon.facebook:before {
+  content: "\f230";
+}
+i.icon.pinterest:before {
+  content: "\f231";
+}
 i.icon.whatsapp:before {
   content: "\f232";
 }
@@ -2768,12 +2774,6 @@ i.icon.mars.stroke.vertical:before {
 }
 i.icon.mars.stroke.horizontal:before {
   content: "\f22b";
-}
-i.icon.facebook.official {
-  content: "\f230";
-}
-i.icon.pinterest.official {
-  content: "\f231";
 }
 i.icon.bed:before {
   content: "\f236";
