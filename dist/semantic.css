@@ -7598,6 +7598,10 @@ i.icon.tags:before {
   content: "\f02c";
 }
 
+i.icon.image:before {
+  content: "\f03e";
+}
+
 i.icon.calendar:before {
   content: "\f073";
 }
@@ -7692,10 +7696,6 @@ i.icon.ticket:before {
 
 i.icon.external.square:before {
   content: "\f14c";
-}
-
-i.icon.map:before {
-  content: "\f14e";
 }
 
 i.icon.bug:before {
@@ -8154,7 +8154,7 @@ i.icon.intergender:before {
   content: "\f224";
 }
 
-i.icon.transgender:before {
+i.icon.transgender.alternative:before {
   content: "\f225";
 }
 
@@ -8184,6 +8184,10 @@ i.icon.other.gender.horizontal:before {
 
 i.icon.neuter:before {
   content: "\f22c";
+}
+
+i.icon.genderless:before {
+  content: "\f22d";
 }
 
 /* View Adjustment */
@@ -8290,7 +8294,7 @@ i.icon.lightning:before {
   content: "\f0e7";
 }
 
-i.icon.rain:before {
+i.icon.umbrella:before {
   content: "\f0e9";
 }
 
@@ -8378,7 +8382,10 @@ i.icon.balance.scale:before {
   content: "\f24e";
 }
 
-i.icon.hourglass.empty:before,
+i.icon.hourglass.empty:before {
+  content: "\f250";
+}
+
 i.icon.hourglass.outline:before {
   content: "\f250";
 }
@@ -9625,7 +9632,7 @@ i.icon.stack.exchange:before {
   content: "\f18d";
 }
 
-i.icon.vimeo:before {
+i.icon.vimeo.square:before {
   content: "\f194";
 }
 
@@ -9913,7 +9920,7 @@ i.icon.contao:before {
   content: "\f26d";
 }
 
-i.icon.500px:before {
+i.icon.five.hundred.pixels:before {
   content: "\f26e";
 }
 
@@ -9971,26 +9978,6 @@ i.icon.delete:before {
 
 i.icon.x:before {
   content: "\f00d";
-}
-
-i.icon.user.times:before {
-  content: "\f235";
-}
-
-i.icon.user.close:before {
-  content: "\f235";
-}
-
-i.icon.user.cancel:before {
-  content: "\f235";
-}
-
-i.icon.user.delete:before {
-  content: "\f235";
-}
-
-i.icon.user.x:before {
-  content: "\f235";
 }
 
 i.icon.zoom.in:before {
@@ -10073,8 +10060,16 @@ i.icon.eye:before {
   content: "\f06e";
 }
 
+i.icon.exclamation.circle:before {
+  content: "\f06a";
+}
+
 i.icon.attention:before {
   content: "\f06a";
+}
+
+i.icon.exclamation.triangle:before {
+  content: "\f071";
 }
 
 i.icon.cart:before {
@@ -10099,18 +10094,6 @@ i.icon.shopping.cart:before {
 
 i.icon.bar.graph:before {
   content: "\f080";
-}
-
-i.icon.area.graph:before {
-  content: "\f1fe";
-}
-
-i.icon.pie.graph:before {
-  content: "\f200";
-}
-
-i.icon.line.graph:before {
-  content: "\f201";
 }
 
 i.icon.key:before {
@@ -10285,7 +10268,7 @@ i.icon.conversation:before {
   content: "\f0e6";
 }
 
-i.icon.umbrella:before {
+i.icon.rain:before {
   content: "\f0e9";
 }
 
@@ -10295,6 +10278,14 @@ i.icon.clipboard:before {
 
 i.icon.lightbulb:before {
   content: "\f0eb";
+}
+
+i.icon.link:before {
+  content: "\f0c1";
+}
+
+i.icon.chain:before {
+  content: "\f0c1";
 }
 
 i.icon.ambulance:before {
@@ -10325,14 +10316,6 @@ i.icon.circle.outline:before {
   content: "\f10c";
 }
 
-i.icon.intersex:before {
-  content: "\f10c";
-}
-
-i.icon.asexual:before {
-  content: "\f10c";
-}
-
 i.icon.spinner:before {
   content: "\f110";
 }
@@ -10345,8 +10328,16 @@ i.icon.star.half.full:before {
   content: "\f123";
 }
 
+i.icon.broken.chain:before {
+  content: "\f127";
+}
+
 i.icon.question:before {
   content: "\f128";
+}
+
+i.icon.exclamation:before {
+  content: "\f12a";
 }
 
 i.icon.eraser:before {
@@ -10381,10 +10372,6 @@ i.icon.compass:before {
   content: "\f14e";
 }
 
-i.icon.amex:before {
-  content: "\f1f3";
-}
-
 i.icon.eur:before {
   content: "\f153";
 }
@@ -10401,13 +10388,22 @@ i.icon.inr:before {
   content: "\f156";
 }
 
-i.icon.cny:before,
-i.icon.rmb:before,
+i.icon.cny:before {
+  content: "\f157";
+}
+
+i.icon.rmb:before {
+  content: "\f157";
+}
+
 i.icon.jpy:before {
   content: "\f157";
 }
 
-i.icon.rouble:before,
+i.icon.rouble:before {
+  content: "\f158";
+}
+
 i.icon.rub:before {
   content: "\f158";
 }
@@ -10420,11 +10416,6 @@ i.icon.btc:before {
   content: "\f15a";
 }
 
-i.icon.sheqel:before,
-i.icon.ils:before {
-  content: "\f20b";
-}
-
 i.icon.try:before {
   content: "\f195";
 }
@@ -10435,6 +10426,10 @@ i.icon.zip:before {
 
 i.icon.dot.circle.outline:before {
   content: "\f192";
+}
+
+i.icon.circle.outline:before {
+  content: "\f1db";
 }
 
 i.icon.sliders:before {
@@ -10461,10 +10456,6 @@ i.icon.gratipay:before {
   content: "\f184";
 }
 
-i.icon.genderless:before {
-  content: "\f1db";
-}
-
 i.icon.teletype:before {
   content: "\f1e4";
 }
@@ -10477,8 +10468,52 @@ i.icon.tty:before {
   content: "\f1e4";
 }
 
+i.icon.visa.card:before {
+  content: "\f1f0";
+}
+
+i.icon.mastercard.card:before {
+  content: "\f1f1";
+}
+
+i.icon.discover.card:before {
+  content: "\f1f2";
+}
+
+i.icon.amex:before {
+  content: "\f1f3";
+}
+
+i.icon.american.express.card:before {
+  content: "\f1f3";
+}
+
+i.icon.stripe.card:before {
+  content: "\f1f5";
+}
+
+i.icon.area.graph:before {
+  content: "\f1fe";
+}
+
+i.icon.pie.graph:before {
+  content: "\f200";
+}
+
+i.icon.line.graph:before {
+  content: "\f201";
+}
+
 i.icon.cc:before {
   content: "\f20a";
+}
+
+i.icon.sheqel:before {
+  content: "\f20b";
+}
+
+i.icon.ils:before {
+  content: "\f20b";
 }
 
 i.icon.plus.cart:before {
@@ -10503,6 +10538,14 @@ i.icon.mars:before {
 
 i.icon.mercury:before {
   content: "\f223";
+}
+
+i.icon.intersex:before {
+  content: "\f224";
+}
+
+i.icon.transgender:before {
+  content: "\f224";
 }
 
 i.icon.venus.double:before {
@@ -10537,16 +10580,44 @@ i.icon.mars.vertical:before {
   content: "\f22a";
 }
 
-i.icon.mars.horizontal:before {
-  content: "\f22b";
-}
-
 i.icon.mars.stroke.vertical:before {
   content: "\f22a";
 }
 
+i.icon.mars.horizontal:before {
+  content: "\f22b";
+}
+
 i.icon.mars.stroke.horizontal:before {
   content: "\f22b";
+}
+
+i.icon.asexual:before {
+  content: "\f22d";
+}
+
+i.icon.user.plus:before {
+  content: "\f234";
+}
+
+i.icon.user.times:before {
+  content: "\f235";
+}
+
+i.icon.user.close:before {
+  content: "\f235";
+}
+
+i.icon.user.cancel:before {
+  content: "\f235";
+}
+
+i.icon.user.delete:before {
+  content: "\f235";
+}
+
+i.icon.user.x:before {
+  content: "\f235";
 }
 
 i.icon.bed:before {
@@ -10557,62 +10628,112 @@ i.icon.yc:before {
   content: "\f23b";
 }
 
-i.icon.battery.four:before,
-i.icon.battery.4:before {
+i.icon.ycombinator:before {
+  content: "\f23b";
+}
+
+i.icon.battery.four:before {
   content: "\f240";
 }
 
-i.icon.battery.three:before,
-i.icon.battery.3:before {
+i.icon.battery.three:before {
   content: "\f241";
 }
 
-i.icon.battery.two:before,
-i.icon.battery.2:before {
+i.icon.battery.two:before {
   content: "\f242";
 }
 
-i.icon.battery.one:before,
-i.icon.battery.1:before {
+i.icon.battery.one:before {
   content: "\f243";
 }
 
-i.icon.battery.zero:before,
-i.icon.battery.0:before {
+i.icon.battery.zero:before {
   content: "\f244";
+}
+
+i.icon.i.cursor:before {
+  content: "\f246";
 }
 
 i.icon.jcb:before {
   content: "\f24b";
 }
 
-i.icon.hourglass.0:before,
+i.icon.japan.credit.bureau.card:before {
+  content: "\f24b";
+}
+
+i.icon.diners.club.card:before {
+  content: "\f24c";
+}
+
 i.icon.hourglass.zero:before {
   content: "\f250";
 }
 
-i.icon.hourglass.1:before,
 i.icon.hourglass.one:before {
   content: "\f251";
 }
 
-i.icon.hourglass.2:before,
 i.icon.hourglass.two:before {
   content: "\f252";
 }
 
-i.icon.hourglass.3:before,
 i.icon.hourglass.three:before {
   content: "\f253";
 }
 
-i.icon.hourglass.4:before,
 i.icon.hourglass.four:before {
   content: "\f254";
 }
 
+i.icon.hand.victory:before {
+  content: "\f25b";
+}
+
+i.icon.tm:before {
+  content: "\f25c";
+}
+
+i.icon.r.circle:before {
+  content: "\f25d";
+}
+
 i.icon.tv:before {
   content: "\f26c";
+}
+
+i.icon.500px:before {
+  content: "\f26e";
+}
+
+i.icon.calendar.plus:before {
+  content: "\f271";
+}
+
+i.icon.calendar.minus:before {
+  content: "\f272";
+}
+
+i.icon.calendar.times:before {
+  content: "\f273";
+}
+
+i.icon.calendar.check:before {
+  content: "\f274";
+}
+
+i.icon.factory:before {
+  content: "\f275";
+}
+
+i.icon.muted.user:before {
+  content: "\f27a";
+}
+
+i.icon.muted.user.outline:before {
+  content: "\f27b";
 }
 
 /*******************************
